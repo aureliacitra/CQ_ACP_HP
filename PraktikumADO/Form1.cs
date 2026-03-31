@@ -173,7 +173,7 @@ namespace PraktikumADO //buat project windows
                 MessageBox.Show("Data berhasil ditambahkan! Baris: " + hasil);
 
                 conn.Close();
-            }
+            } // add query
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
