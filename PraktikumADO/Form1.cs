@@ -177,7 +177,7 @@ namespace PraktikumADO //buat project windows
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            } //hasil
         }
     }
 }
