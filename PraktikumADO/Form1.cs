@@ -111,7 +111,7 @@ namespace PraktikumADO //buat project windows
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            } //menampilkan
         }
         private void btnHitungDSN_Click(object sender, EventArgs e)
         {
