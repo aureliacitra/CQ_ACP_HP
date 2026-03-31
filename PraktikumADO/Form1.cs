@@ -26,7 +26,7 @@ namespace PraktikumADO //buat project windows
         private void Koneksi()
         {
             conn = new SqlConnection("Data Source=LAPTOP-35SRL7LA\\CITRA;Initial Catalog=DBAkademikADO;Integrated Security=True");
-        }
+        } // 
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
