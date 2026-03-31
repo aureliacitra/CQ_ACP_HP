@@ -129,7 +129,7 @@ namespace PraktikumADO //buat project windows
                 txtHasil.Text = jumlah.ToString();
 
                 conn.Close();
-            }
+            } //tambah data
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
