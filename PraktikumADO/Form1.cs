@@ -151,7 +151,7 @@ namespace PraktikumADO //buat project windows
                 MessageBox.Show("Berhasil update! Baris: " + hasil);
 
                 conn.Close();
-            }
+            } //query update
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
