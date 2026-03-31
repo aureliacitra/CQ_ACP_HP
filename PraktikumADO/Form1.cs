@@ -14,7 +14,7 @@ using System.Xml.Serialization; //add library
 
 namespace PraktikumADO //buat project windows
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form //form utama
     {
         SqlConnection conn;
         SqlCommand cmd;
