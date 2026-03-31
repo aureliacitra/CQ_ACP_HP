@@ -42,7 +42,7 @@ namespace PraktikumADO //buat project windows
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            } // add try-catch
         }
 
         private void btnHitungMhs_Click(object sender, EventArgs e)
