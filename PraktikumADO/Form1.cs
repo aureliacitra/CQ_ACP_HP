@@ -61,7 +61,7 @@ namespace PraktikumADO //buat project windows
                 txtHasil.Text = jumlah.ToString();
 
                 conn.Close();
-            }
+            } // menghitung data mhs
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
