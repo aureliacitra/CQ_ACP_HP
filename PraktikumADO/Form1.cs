@@ -38,7 +38,7 @@ namespace PraktikumADO //buat project windows
                 MessageBox.Show("Koneksi ke database berhasil");
 
                 conn.Close();
-            }
+            } //fungsi koneksi btnconnect
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
