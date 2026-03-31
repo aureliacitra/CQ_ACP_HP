@@ -155,7 +155,7 @@ namespace PraktikumADO //buat project windows
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            } // menampilkan hasil
         }
         private void btnInsertProdi_Click(object sender, EventArgs e)
         {
