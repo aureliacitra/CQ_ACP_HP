@@ -84,7 +84,7 @@ namespace PraktikumADO //buat project windows
                 txtHasil.Text = jumlah.ToString();
 
                 conn.Close();
-            }
+            } // hitung jumlah matkul
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
