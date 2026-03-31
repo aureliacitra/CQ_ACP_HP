@@ -88,7 +88,7 @@ namespace PraktikumADO //buat project windows
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            } //menampilkn hasil
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
