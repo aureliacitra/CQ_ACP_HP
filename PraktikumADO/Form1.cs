@@ -107,7 +107,7 @@ namespace PraktikumADO //buat project windows
                 MessageBox.Show("Jumlah baris terpengaruh : " + hasil);
 
                 conn.Close();
-            }
+            } // add query update
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
