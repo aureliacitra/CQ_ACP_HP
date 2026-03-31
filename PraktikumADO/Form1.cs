@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization; //add library
 
-namespace PraktikumADO
+namespace PraktikumADO //buat project windows
 {
     public partial class Form1 : Form
     {
